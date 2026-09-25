@@ -1,49 +1,35 @@
-Section 1: Welcome
-Welcome to the course!
-This first section contains a brief overview of the class. There are no lecture notes for this
-first section as it’s an introduction to the rest of the class. This section is still important
-though, so make sure to watch the lecture videos to learn how to get the most out of the
-class.
-Enjoy!
-Section 2: Installing and Exploring Node.js
-Lesson 1: Section Intro
-In this section, you’re going to set up your machine for the rest of the course. This includes
-installing Node.js and Visual Studio Code. This section also dives into what Node.js is, how
-Node.js works, and why Node.js is a tool worth learning.
-Lesson 2: Installing Node.js and Visual Studio Code
-In this lesson, you’ll install Node.js and Visual Studio Code. Both are free, open source,
-and available for all operating system. They’re the only tools needed to get started with
-Node!
-Below are links to both tools. Take a moment to install them before continuing on with the
-class.
-Links
-• Node.js
-• Visual Studio Code
-Lesson 3: What is Node.js?
-In this lesson, you’ll explore what Node.js is. This includes a brief tour of the V8 JavaScript
-engine, non-blocking I/O, and more!
-Version 1.0 9
-This lesson contains a presentation that covers what Node.js is. There are no notes for
-presentation lectures. Please refer to the video for details.
-Lesson 4: Why Should I Use Node.js?
-Why should you use Node.js? In this lesson, you’ll learn what makes Node.js a tool worth
-using.
-This lesson contains a presentation that covers the major advantages of Node.js. There
-are no notes for presentation lectures. Please refer to the video for details.
-Lesson 5: Your First Node.js Script
-It’s time. In this lesson, you’ll be creating and running your very first Node.js app.
-Creating a Script
-Node.js scripts are created with the js file extension. Remember that Node.js is not a
-programming language. All the code in this course is JavaScript code, which is why the js
-extension is used.
-Below is an example script stored in a file named index.js.
-console.log('Hello Node.js!')
-Running a Script
-You can run a Node.js script using the node command. Open up a new terminal window
-and navigate to the directory where the script lives. From the terminal, you can use the
-node command to provide the path to the script that should run. You can see an example
-of this command in the terminal below.
-$ node index.js
-Hello Node.js!
-When a Node.js script calls console.log, the logged values will show up in the terminal.
-This is a great way to get output from your Node.js application
+### Node.js
+
+Node.js is a JavaScript runtime built on Chrome’s V8 engine that allows JavaScript to run outside the browser, mainly on the server side. It is commonly used to build APIs, backend services, real-time applications, and scalable web servers.
+
+### Event-Driven Architecture
+
+Node.js follows an event-driven architecture, where events and callbacks are used to handle operations efficiently.
+
+### Event Loop
+
+The Event Loop continuously checks for tasks and coordinates their execution, allowing Node.js to handle many requests without creating a separate thread for every request.
+
+### Single Main Thread
+
+Node.js uses a single main JavaScript thread to execute JavaScript code, while certain operations can be handled by the underlying system or Node.js worker pool.
+
+### V8 Engine
+
+The V8 engine converts JavaScript code into machine code and executes it efficiently.
+
+### Modules
+
+Node.js allows code to be divided into reusable modules. It supports CommonJS (`require`) and ES Modules (`import/export`).
+
+### npm
+
+npm is Node.js's package manager. It is used to install, update, and manage third-party packages and project dependencies.
+
+### Express.js
+
+Express.js is a popular Node.js framework used to build web servers and REST APIs. It simplifies routing, middleware, and request-response handling.
+
+### Middleware
+
+Middleware functions execute during the request-response cycle. They are commonly used for authentication, logging, validation, and error handling.
